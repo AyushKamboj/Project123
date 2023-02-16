@@ -4,6 +4,6 @@
       - docker_image:
           name: image:latest
           build: 
-             path: /home/ubuntu/Project123/Dockerfile
+             path: /root/Project123/Dockerfile
              source: build
           state: present 
